@@ -13,3 +13,11 @@ const myFunction=function(){
 
 console.log(typeof bignumber);
 console.log(myFunction);
+
+//stack and heap memory
+let myName="shreya"//stack memory
+
+let user1={//heap memory
+    name:"shreya",
+    place:"vns"
+}
